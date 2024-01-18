@@ -12,16 +12,36 @@ Find the name, population, and area of the big countries.
 
 Return the result table in any order.
 
-### SQL Solution
+<details>
+<summary style="font-size:1.3rem;font-weight:800"> Hints </summary> 
+<br>
 
-```sql
-SELECT name,area,population FROM World WHERE area >= 3000000 OR population >= 25000000;
-```
+- <details>
+      <summary><strong>Hint#1</strong></summary>
+      <p>Use the <span style="color:blue;font-weight:bold"> OR </span> operator to combine two conditions.
+  </p>
+  </details>
 
-### Explanation
+</details>
+
+<details>
+<summary style="font-size:1.3rem;font-weight:800"> Explanation </summary> 
+<br>
 
 The question is pretty straight forward. We just need to find the name, population, and area of the big countries.
 
 We can do this by using the <span style="color:blue;font-weight:bold"> WHERE </span> clause and the <span style="color:blue;font-weight:bold"> OR </span> operator.
 
 The <span style="color:blue;font-weight:bold"> WHERE </span> clause will filter out all the countries that are not big. The <span style="color:blue;font-weight:bold"> OR </span> operator will make sure that the countries are either big in area or population.
+
+</details>
+
+<details>
+<summary style="font-size:1.3rem;font-weight:800"> SQL Solution </summary> 
+<br>
+
+```sql
+SELECT name,area,population FROM World WHERE area >= 3000000 OR population >= 25000000;
+```
+
+</details>
