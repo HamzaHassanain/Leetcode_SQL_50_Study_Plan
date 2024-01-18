@@ -35,7 +35,6 @@ Problem requirements go here.
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
-<br>
 
 Explanation goes here.
 
@@ -43,7 +42,7 @@ Explanation goes here.
 
 <details>
 <summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
-<br>
+
 
 ```sql
     SQL code goes here
