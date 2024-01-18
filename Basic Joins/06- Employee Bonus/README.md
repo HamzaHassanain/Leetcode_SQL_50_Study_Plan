@@ -28,7 +28,6 @@ Report the name and bonus amount of each employee with a bonus less than 1000. I
 </details>
 
 </details>
-<br>
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
