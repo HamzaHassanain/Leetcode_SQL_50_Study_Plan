@@ -13,31 +13,32 @@ Find the name, population, and area of the big countries.
 Return the result table in any order.
 
 <details>
-<summary style="font-size:1.3rem;font-weight:800"> Hints </summary> 
+<summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
 <br>
 
 - <details>
-      <summary><strong>Hint#1</strong></summary>
-      <p>Use the <span style="color:blue;font-weight:bold"> OR </span> operator to combine two conditions.
+      <summary>Hint#1</summary>
+      <p>Use the <strong> OR </strong> operator to combine two conditions.
   </p>
   </details>
 
 </details>
 
 <details>
-<summary style="font-size:1.3rem;font-weight:800"> Explanation </summary> 
+<summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
+
 <br>
 
 The question is pretty straight forward. We just need to find the name, population, and area of the big countries.
 
-We can do this by using the <span style="color:blue;font-weight:bold"> WHERE </span> clause and the <span style="color:blue;font-weight:bold"> OR </span> operator.
+We can do this by using the <strong> WHERE </strong> clause and the <strong> OR </strong> operator.
 
-The <span style="color:blue;font-weight:bold"> WHERE </span> clause will filter out all the countries that are not big. The <span style="color:blue;font-weight:bold"> OR </span> operator will make sure that the countries are either big in area or population.
+The <strong> WHERE </strong> clause will filter out all the countries that are not big. The <strong> OR </strong> operator will make sure that the countries are either big in area or population.
 
 </details>
 
 <details>
-<summary style="font-size:1.3rem;font-weight:800"> SQL Solution </summary> 
+<summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
 <br>
 
 ```sql
