@@ -38,7 +38,6 @@ Find the <b>names</b> of the customer that are <strong>not referred by</strong> 
 
 <details>
     <summary style="font-size:1.3rem;font-weight:800"> SQL Solution </summary> 
-    <br>
 
 ```sql
     SELECT name 
