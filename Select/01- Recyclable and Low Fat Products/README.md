@@ -8,7 +8,7 @@ Return the result table in any order.
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Hints</strong></summary> 
-<br>
+
 
 <details>
       <summary>Hint#1</summary>
@@ -20,7 +20,7 @@ Return the result table in any order.
 
 <details>
 <summary style="font-size:1.3rem"> <strong> Explanation </strong> </summary> 
-<br>
+
 
 The question is pretty straight forward. We just need to find the ids of products that are both low fat and recyclable.
 
@@ -34,7 +34,7 @@ The query will return the ids of the products that are both low fat and recyclab
 
 <details>
 <summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
-<br>
+
 
 ```sql
 select product_id from Products where low_fats="Y" and recyclable= "Y";
