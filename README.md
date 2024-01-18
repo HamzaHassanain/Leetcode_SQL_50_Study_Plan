@@ -11,3 +11,43 @@ This repository is organized in the same way as the study plan. Each folder in t
 ```
 To be added when the repository is complete.
 ```
+
+#### Our Template
+
+````md
+# [Problem name](https://leetcode.com/problem.com)
+
+### Problem Requirements:
+
+Problem requirements go here.
+
+<details>
+<summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
+<br>
+
+- <details>
+      <summary>Hint#1-10</summary>
+      <p>hint body goes here</p>
+  </details>
+
+</details>
+
+<details>
+<summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
+
+<br>
+
+Explanation goes here.
+
+</details>
+
+<details>
+<summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
+<br>
+
+```sql
+    SQL code goes here
+```
+
+</details>
+````
