@@ -10,11 +10,11 @@ Return the result table in any order.
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
 <br>
 
-- <details>
+<details>
       <summary>Hint#1</summary>
       <p>There is a function in SQL called <strong style="color:yellow;"> LENGTH </strong> that returns the number of characters of a string.
   </p>
-  </details>
+</details>
 
 </details>
 

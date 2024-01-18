@@ -16,7 +16,7 @@ Return the result table in any order.
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
 <br>
 
-- <details>
+<details>
       <summary>Hint#1</summary>
       <p>Use the <strong> OR </strong> operator to combine two conditions.
   </p>

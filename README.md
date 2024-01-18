@@ -15,7 +15,7 @@ To be added when the repository is complete.
 #### Our Template
 
 ````md
-# [Problem name](https://leetcode.com/problem.com)
+# [Problem name](https://problem-link-on-leetcode.com)
 
 ### Problem Requirements:
 
@@ -25,10 +25,10 @@ Problem requirements go here.
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
 <br>
 
-- <details>
+<details>
       <summary>Hint#1-10</summary>
       <p>hint body goes here</p>
-  </details>
+</details>
 
 </details>
 
