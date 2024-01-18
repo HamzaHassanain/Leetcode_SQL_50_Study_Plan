@@ -23,7 +23,6 @@ Problem requirements go here.
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
-<br>
 
 <details>
       <summary>Hint#1-10</summary>
