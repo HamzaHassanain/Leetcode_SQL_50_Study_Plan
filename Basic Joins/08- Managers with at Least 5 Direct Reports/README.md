@@ -8,7 +8,6 @@ Return the result table in any order.
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
-<br>
 
 <details>
       <summary>Hint#1</summary>
@@ -21,12 +20,10 @@ Return the result table in any order.
 </details>
 </details>
 
-<br>
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
-<br>
 
 We want to find the managers with at least five direct reports. So we must join the Employee table with itself on the employee1.id equals the employee2.managerId
 
@@ -36,7 +33,6 @@ To find the managers with at least five direct reports, we must count the number
 
 <details>
 <summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
-<br>
 
 ```sql
 SELECT e1.name AS name
