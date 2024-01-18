@@ -25,14 +25,12 @@ Return the result table in any order.
       <p> select the rows where the temperature of the first table is greater than the temperature of second table (using self joins) </p>
 </details>
 
-<br>
 
 </details>
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
-<br>
 
 The problem asks to find the dates' Id with higher temperatures compared to its previous dates (yesterday). We can do this by joining the Weather table with itself and selecting only the dates form the first table where the temperature of the first table is greater than the temperature of second table. We can use the DATEDIFF("date1","date2") function to find the diffrence between two dates.
 
@@ -40,7 +38,6 @@ The problem asks to find the dates' Id with higher temperatures compared to its 
 
 <details>
 <summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
-<br>
 
 ```sql
 SELECT Weather1.id as Id
