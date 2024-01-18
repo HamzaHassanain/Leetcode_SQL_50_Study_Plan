@@ -6,7 +6,6 @@ Report the name and bonus amount of each employee with a bonus less than 1000. I
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
-<br>
 
 <details>
       <summary>Hint#1</summary>
@@ -33,7 +32,6 @@ Report the name and bonus amount of each employee with a bonus less than 1000. I
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
-<br>
 
 We are asked to select the name and bonus amount of each employee with a bonus less than 1000. If there is no bonus for an employee, the bounce should be reported as 'NULL'.
 
@@ -45,7 +43,6 @@ Now to the where clause, we must select the records with a bonus less than 1000 
 
 <details>
 <summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
-<br>
 
 ```sql
 SELECT Employee.name, Bonus.bonus  FROM Employee
