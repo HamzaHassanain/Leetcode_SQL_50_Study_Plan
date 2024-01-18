@@ -1,4 +1,4 @@
-# [Find Customer Referee]([ProblemURL](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50))
+# [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50)
 
 ## Problem Requirements:
 Find the <b>names</b> of the customer that are <strong>not referred by</strong> the customer with <code>id = 2</code>.
