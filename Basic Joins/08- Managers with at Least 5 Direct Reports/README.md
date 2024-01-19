@@ -2,37 +2,35 @@
 
 ### Problem Requirements:
 
-Find managers with at least five direct reports.
+Find managers with at least <code>5</code> direct reports.
 
 Return the result table in any order.
 
 <details>
-<summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary> 
+<summary style="font-size:1.3rem;"> <strong>Hints</strong> </summary>
 
 <details>
       <summary>Hint#1</summary>
-      <p>Self join Employee's table with itself using Inner Join</p>
+      <p>Self join Employee's table with itself <code> using INNER JOIN</code></p>
 </details>
 
 <details>
       <summary>Hint#2</summary>
-      <p>Use GROUP BY clause </p>
+      <p>Use <code>GROUP BY</code> clause </p>
 </details>
 </details>
-
 
 <details>
 <summary style="font-size:1.3rem;"> <strong>Explanation</strong> </summary>
 
+We want to find the managers with at least <code>5</code> direct reports. So we must join the Employee table with itself on the <code> employee1.id = the employee2.managerId </code> considering that the employee1 is the manager of employee2.
 
-We want to find the managers with at least five direct reports. So we must join the Employee table with itself on the employee1.id equals the employee2.managerId
-
-To find the managers with at least five direct reports, we must count the number of direct reports for each manager. We can do this by grouping the result by the managerId and then counting the number of direct reports for each manager. We can then use the HAVING clause to filter out the managers with less than five direct reports.
+To find the managers with at least <code>5</code> direct reports, we must count the number of direct reports for each manager. We can do this by grouping the result by the <code>managerId</code> and then counting the number of direct reports for each manager. We can then use the <code>HAVING</code> clause and <code>COUNT</code> function to filter out the managers with at least <code>5</code> direct reports.
 
 </details>
 
 <details>
-<summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary> 
+<summary style="font-size:1.3rem"><strong> SQL Solution</strong> </summary>
 
 ```sql
 SELECT e1.name AS name

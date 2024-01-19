@@ -4,11 +4,11 @@
 
 A country is big if:
 
-- it has an area of at least three million (i.e., 3000000 km2), or
+- it has an area of at least three million (i.e., <code> 3000000 km2</code>), or
 
-- it has a population of at least twenty-five million (i.e., 25000000).
+- it has a population of at least twenty-five million (i.e., <code>25000000</code>).
 
-Find the name, population, and area of the big countries.
+Find the <code>name, population</code>, and <code>area</code> of the big countries.
 
 Return the result table in any order.
 
@@ -18,7 +18,7 @@ Return the result table in any order.
 
 <details>
       <summary>Hint#1</summary>
-      <p>Use the <strong> OR </strong> operator to combine two conditions.
+      <p>Use the <code> OR</code> operator to combine two conditions.
   </p>
   </details>
 
@@ -29,11 +29,11 @@ Return the result table in any order.
 
 <br>
 
-The question is pretty straight forward. We just need to find the name, population, and area of the big countries.
+The question is pretty straight forward. We just need to find the <code>name, population</code>, and <code>area</code> of the big countries.
 
-We can do this by using the <strong> WHERE </strong> clause and the <strong> OR </strong> operator.
+We can do this by using the <code>WHERE</code> clause and the <code>OR</code> operator.
 
-The <strong> WHERE </strong> clause will filter out all the countries that are not big. The <strong> OR </strong> operator will make sure that the countries are either big in area or population.
+The <code>WHERE</code> clause will filter out all the countries that are not big. The <code>OR</code> operator will make sure that the countries are either big in area or population.
 
 </details>
 
