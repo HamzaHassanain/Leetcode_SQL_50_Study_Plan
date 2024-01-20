@@ -43,5 +43,8 @@ Find the <b>names</b> of the customer that are <strong>not referred by</strong> 
     SELECT name 
     FROM customer 
     WHERE referee_id IS NULL OR referee_id <>2;
+    -- equal operator =
+    -- not equal operator <>
+    -- not equal operator !=
 ```
 </details>
