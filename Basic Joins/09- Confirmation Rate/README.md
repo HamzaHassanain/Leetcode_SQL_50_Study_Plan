@@ -43,6 +43,7 @@ for each user divide the number of confirmed message with the total requested me
 $$
   round(\frac{count(confirmed_messages)}{count(messages)} , 2)
 $$
+
 <br>
 First, count the total requested messages for each user. we can use <code>COUNT()</code> function to evaluate this easily.
 <br>
