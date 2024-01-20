@@ -41,7 +41,7 @@ Let's rephrase the problem statement to make our life easier.
 for each user divide the number of confirmed message with the total requested messages.
 
 $$
-  round(\frac{count(confirmed_messages)}{count(messages)} , 2)
+  round(\frac{count(confirmed\\_messages)}{count(messages)} , 2)
 $$
 
 <br>
