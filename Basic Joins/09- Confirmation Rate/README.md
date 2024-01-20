@@ -40,7 +40,9 @@ Let's rephrase the problem statement to make our life easier.
 <br>
 for each user divide the number of confirmed message with the total requested messages.
 
-![equation](https://latex.codecogs.com/gif.latex?round%28%5Cfrac%7Bcount%28confirmed_messages%29%7D%7Bcount%28messages%29%7D%20%2C%202%29)
+$$
+  round(\frac{count(confirmed_messages)}{count(messages)} , 2)
+$$
 <br>
 First, count the total requested messages for each user. we can use <code>COUNT()</code> function to evaluate this easily.
 <br>
