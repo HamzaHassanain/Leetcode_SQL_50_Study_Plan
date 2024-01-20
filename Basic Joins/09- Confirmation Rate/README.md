@@ -40,11 +40,13 @@ Let's rephrase the problem statement to make our life easier.
 <br>
 for each user divide the number of confirmed message with the total requested messages.
 
-$$ round(\frac{count(confirmed\_messages)}{count(messages)} , 2) $$
+![equation](https://latex.codecogs.com/gif.latex?round%28%5Cfrac%7Bcount%28confirmed_messages%29%7D%7Bcount%28messages%29%7D%20%2C%202%29)
 <br>
 First, count the total requested messages for each user. we can use <code>COUNT()</code> function to evaluate this easily.
 <br>
+<br>
 Second, count the confirmed messages for each user. we can use <code>CASE</code> statement with <code> SUM()</code> function to evaluate this as follows <b>:</b> if the message is confirmed add <code>1</code> to your sum otherwise add <code>0</code>.
+<br>
 <br>
 Finally, divide confirmed messages by total requested messages then round the result to 2 decimals using <code> ROUND(number , decimals)</code> function.
 </details>

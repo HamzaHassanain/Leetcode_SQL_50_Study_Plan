@@ -45,8 +45,10 @@ for every record in the combination of <code>student</code> and <code>subject</c
 <br>
 First, let's make the combination of <code>students</code>and<code>subjects</code>.It's done easily using <code>CROSS JOIN</code>.
 <br>
+<br>
 Second, <code>JOIN</code> Examinations table <code>ON</code> <code>student_id</code> <strong>and</strong> <code>subject_id</code>
 Then count <code>Examinations.student_id</code> or <code>Examinations.subject_name</code> using <code>COUNT()</code>function grouped by <code>student_id </code> and <code>subject_name</code>. 
+<br>
 <br>
 Finally, Order the result Using <code>ORDER BY</code> clause in ascending order<code>(ASC)</code>.
 </details>

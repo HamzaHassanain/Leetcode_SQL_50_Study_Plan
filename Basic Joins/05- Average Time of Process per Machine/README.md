@@ -38,14 +38,18 @@ Return the result table in any order.
 Let's rephrase the problem statement to make our life easier.
 <br>
 For every <code>machine</code> evaluate the following 
-$$ round( \frac{(timestamp_{end}) - sum(timestamp_{start})}{count(process)} , 3) $$
+
+![equation](https://latex.codecogs.com/gif.latex?round%28%20%5Cfrac%7B%28timestamp_%7Bend%7D%29%20-%20sum%28timestamp_%7Bstart%7D%29%7D%7Bcount%28process%29%7D%20%2C%203%29)
 <br>
 The easiest way is to solve this problem is to use aggregation functions.
+<br>
 <br>
 First we need to calculate the time of all process , we need to sum
 <code>end_time - start_time</code> , with the help of <code>CASE</code> statement we can negate start_time then add the result to the time using <code> SUM()</code> function.
 <br>
+<br>
 Second we want to <code>COUNT</code> the number of process , we can use <code>COUNT()</code>  function but we should divide it with <code>2</code> because every process has start_time and end_time so it will be calculated twice.
+<br>
 <br>
 Finally, divide the<code>time</code> with the <code> number of process</code> then <code>ROUND</code> the result to 3 decimal places using <code>ROUND(number , decimals)</code> function.
 
