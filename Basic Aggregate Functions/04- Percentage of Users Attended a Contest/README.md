@@ -31,7 +31,7 @@ To find the percentage of the users registered in each contest we should count t
         calculate the number of users that registered in each contest using <code>COUNT()</code> function. 
     </li>
     <li>
-        calculate the total number of user using <code>COUNT()</code> function as a <code><strong>sub query</strong></code>. By using <code>*</code> <i>(means all)</i> we can count the number of records in <code>Users</code> table. .
+        calculate the total number of user using <code>COUNT()</code> function as a <code><strong>sub query</strong></code>. By using <code>*</code> <i>(means all)</i> we can count the number of records in <code>Users</code> table.
     </li>
     <li>
         divide both number and multiply them by <code>100</code> Then use <code>ROUND(number , decimals)</code> to round the result.
