@@ -17,7 +17,7 @@
 <details>
       <summary>Hint#2</summary>
       <p>
-        Try use <code>WITH</code> clause. It will help you to define a temporary data set. It will make your life easier.
+        Try using <code>WITH</code> clause. It will help you to define a temporary data set. It will make your life easier.
       </p>
 </details>
 <details>
@@ -29,7 +29,7 @@
 <details>
       <summary>Hint#4</summary>
       <p>
-        Try use <code>window function</code>.
+        Try using <code>window function</code>.
       </p>
 </details>
 
@@ -67,7 +67,7 @@ Then when we find a player logged in the next day of this day we should put this
   <li>  
   We will filter this table according to our condition <code>(event_date and first_login are consecutive days)</code>.
   <br>
-  We can use  <code>DATE_SUB()</code> function to subtract a given duration from <code>event_date</code> As follows<br> <code>DATE_SUB(event_date, INTERVAL 1 DAY) = first_login</code> 
+  We can use  <code>DATE_SUB()</code> function to subtract a given interval (e.g, a year , a month , ...) from <code>event_date</code> As follows<br> <code>DATE_SUB(event_date, INTERVAL 1 DAY) = first_login</code> 
   </li>
   <li>
   Finally, divide the player that satisfies the condition by the total number of player that we can calculate as a <code>subquery</code> then round the result using <code>ROUND()</code>function to round the result.

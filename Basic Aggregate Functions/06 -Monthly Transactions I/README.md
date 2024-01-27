@@ -31,9 +31,14 @@ Return the result table in any order.
 </details>
 <details>
       <summary>Hint#5</summary>
+       <p>
+            The <code>DATE_FORMAT(date , format)</code> function formats a date as specified.
+        </p>
+</details>
+<details>
+      <summary>Hint#6</summary>
         <p>Use <code>GROUP BY</code> clause to group a set of rows into a set of summary rows</p>
 </details>
-
 </details>
 
 <details>
@@ -64,7 +69,7 @@ Return the result table in any order.
 
 
 ```sql
-    SELECT 
+SELECT 
     DATE_FORMAT(trans_date, '%Y-%m') AS month, 
     country, 
     COUNT(state) AS trans_count, 
@@ -75,9 +80,9 @@ Return the result table in any order.
     SUM(
         CASE WHEN state = 'approved' THEN amount ELSE 0 END
     ) AS approved_total_amount 
-    FROM 
+FROM 
     Transactions 
-    GROUP BY 
+GROUP BY 
     month, 
     country
 
