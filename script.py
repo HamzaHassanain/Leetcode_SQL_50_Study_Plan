@@ -1,5 +1,5 @@
 import os
-dirs = ["01- Number of Unique Subjects Taught by Each Teacher", "03- Product Sales Analysis III", "05- Find Followers Count" , "07- Customers Who Bought All Products"]
+dirs = ["02- Primary Department for Each Employee", "04- Consecutive Numbers", "06- Last Person to Fit in the Bus"]
 
 temp = """
 # [Problem name](https://problem-link-on-leetcode.com)
@@ -36,7 +36,7 @@ Explanation goes here.
 
 </details>
 """
-basedir = "Sorting and Grouping"
+basedir = "Advanced Select and Joins"
 for dir in dirs:
     os.mkdir(os.path.join(basedir, dir))
     with open(os.path.join(basedir, dir, "README.md"), "w") as f:
