@@ -1,4 +1,4 @@
-# The Solutions of The LeetCode SQL 50 FREE Study Plan
+# The Solutions for The LeetCode SQL 50 FREE Study Plan
 
 ### [The Study Plan](https://leetcode.com/studyplan/top-sql-50/)
 
