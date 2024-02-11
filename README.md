@@ -4,7 +4,7 @@
 
 ### How is this repository organized?
 
-This repository is organized in the same way as the study plan. Each folder in this repository corresponds to a a set of questions in the study plan. Each folder of those contains folders for each question in the set. Each question folder contains a README.md file that contains solution for the question.
+This repository is organized in the same way as the study plan. Each folder in this repository corresponds to a set of questions in the study plan. Each folder contains folders for each question in the set. Each question folder contains a README.md file that contains the solution for the question.
 
 The <code>README.md</code> is organized in the following way:
 
